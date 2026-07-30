@@ -1,6 +1,6 @@
 # Privacy Policy for Free AI Assistant
 
-Effective date: July 9, 2026
+Effective date: July 30, 2026
 
 Free AI Assistant is a browser extension powered by the user's own Cohere API key. It helps users summarize pages, explain selected text, rewrite content, translate text, draft replies, and ask questions from the browser.
 
@@ -18,6 +18,8 @@ The extension may process information that the user actively provides or request
 - Local extension settings.
 - The user's Cohere API key.
 
+On form-heavy pages, requested page text may include visible headings, labels, legends, and explanatory text. Native input, textarea, and select control values are excluded from generic page-text extraction.
+
 The extension does not automatically upload every page the user visits and does not collect unrelated tabs or background browsing history.
 
 ## Local storage
@@ -32,7 +34,7 @@ The extension may store the following items locally in browser extension storage
 - Local chat history.
 - Active chat context.
 - Previous assistant answers needed for follow-up questions.
-- Selected-text previews and page-title previews.
+- Selected-text previews and bounded page context associated with the active chat.
 - Draft input.
 
 These items are stored locally on the user's device. The saved API key is not displayed again after it is saved.
@@ -49,8 +51,8 @@ The extension does not use analytics, advertising trackers, telemetry, or advert
 
 ## Permissions
 
-The extension requests only the permissions needed for its visible features. Broad site access is optional and, when allowed by the user, is used to keep the sidebar synced across tabs and to read selected or page text only when the user requests an action.
+The extension requests only the permissions needed for its visible features. Broad site access is optional. If the user pins the sidebar and grants this access, the extension can display the sidebar automatically in other ordinary webpage tabs. Granting this permission does not automatically read or send page text. Selected or page text is read and sent only when the user requests an action that needs it.
 
 ## User control
 
-Users can remove the extension, clear extension storage in browser settings, or revoke/change their Cohere API key at any time.
+Users can remove the extension, clear extension storage in browser settings, revoke optional site access, or revoke or change their Cohere API key at any time.
