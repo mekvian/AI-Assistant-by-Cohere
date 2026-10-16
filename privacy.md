@@ -56,3 +56,9 @@ The extension requests only the permissions needed for its visible features. Bro
 ## User control
 
 Users can remove the extension, clear extension storage in browser settings, revoke optional site access, or revoke or change their Cohere API key at any time.
+
+## Contact
+
+For support, feedback, or collaboration, contact [mekvian@proton.me](mailto:mekvian@proton.me).
+
+GitHub: [mekvian](https://github.com/mekvian).
